@@ -40,3 +40,5 @@ out_data = font_metrics + glyph_metrics + bitmap
 
 with open(outf, 'wb') as f2:
     f2.write(out_data)
+
+    
